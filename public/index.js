@@ -7,10 +7,6 @@
 
 $(function () {
     $('.slider').slider({full_width: true, height: 500});
-    $('#song').hide()
-    $('#play').click(function () {
-        $('#song')
-    })
     $('.ramu').click(function (event) {
         $('#me_left').attr('class', 'collection-item')
         $('#cont_left').attr('class', 'collection-item')
